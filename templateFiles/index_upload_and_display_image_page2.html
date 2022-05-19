@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <h1>User Interface Detection</h1>
+    <p>Show Loaded Thermal Image/Video</p>
+ 
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" id="myFile" name="uploaded-file" accept=".jpg">
+        <input type="submit" value="Submit">
+    </form>
+  <br>
+  <p style="color:green;">file uploaded successfully</p>
+  <form action="/show_image" target="_self">
+        <input type="submit" value="Display Image" />
+    </form>
+  </body>
+</html>

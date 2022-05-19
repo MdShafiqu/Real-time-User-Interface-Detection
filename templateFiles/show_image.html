@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <h1>User Interface Detection Application</h1>
+    <p>Detect user interface in thermal image</p>
+ 
+<img src="{{ user_image }}" alt="Thermal Image" width="500" height="400">
+ 
+<br>
+<br>
+  <form action="/detect_object" target="_self">
+        <input type="submit" value="Detect User Interface" />
+    </form>
+  <form action="/obscure_object" target="_self">
+        <input type="submit" value="Obscure Object" />
+    </form>
+<form action="/video_feed" target="_self">
+        <input type="submit" value="Detect from Video" />
+    </form>
+
+  <form action="/" target="_self">
+        <input type="submit" value="test new image" />
+    </form>
+
+    </body>
+</html>

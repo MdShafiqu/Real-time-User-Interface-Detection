@@ -1,0 +1,9 @@
+item {
+  id: 1
+  name: 'keyboard'
+}
+
+item {
+  id: 2
+  name: 'touchscreen'
+}
