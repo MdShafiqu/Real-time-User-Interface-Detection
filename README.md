@@ -1,4 +1,4 @@
-# User-Interface-Detection
+# User Interface Detection
 In this repo, I developed a deep learning pipeline for real-time user interface detection from thermal camera feed.
 
 ## How to Run
