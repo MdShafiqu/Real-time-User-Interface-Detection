@@ -1,7 +1,7 @@
 # User-Interface-Detection
 In this repo, I developed a deep learning pipeline for real-time user interface detection from thermal camera feed.
 
-# How to Run
+## How to Run
 Install anaconda
 Clone or download  https://github.com/MdShafiqu/Thermal-Image-Detection
 Create a folder name it my_repo and keep all files from repo inside it
@@ -38,10 +38,13 @@ Now test the web application by running following commands-
 (tf_app) C:\> cd C:\my_repo
 
 (tf_app) C:\my_repo> python main_app.py
-# Test on Images
+## Detect from Images
 ![web_app1](https://user-images.githubusercontent.com/22468194/168495337-ded66a3b-9c86-4e9f-8684-5eac8b7d6eee.png)
 ![web_app](https://user-images.githubusercontent.com/22468194/168495356-483a4cbd-2a22-4781-8af6-e1cd06b7a6c0.png)
-# Demo Video
+
+## Real-time Detection
 
 
-https://user-images.githubusercontent.com/22468194/168798000-fdf13991-bb5b-44e6-bd21-1a872d1a80f3.mp4
+
+https://user-images.githubusercontent.com/22468194/169401793-d410c224-df5f-42e1-a240-b0efbe593a9b.mp4
+
