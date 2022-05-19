@@ -13,6 +13,8 @@ C:\> activate tf_app
 
 (tf_app) C:\>python -m pip install --upgrade pip
 
+(tf_app) C:\> pip install flask
+
 (tf_app) C:\> pip install tensorflow=1.13.1
 
 (tf_app) C:\> conda install -c anaconda protobuf
