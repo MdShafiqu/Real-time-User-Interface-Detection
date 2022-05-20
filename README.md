@@ -2,10 +2,7 @@
 In this project work, I developed a deep learning pipeline for real-time user interface detection from thermal camera feed.
 
 ## How to Run
-Install anaconda
-Clone or download  https://github.com/MdShafiqu/Thermal-Image-Detection
-Create a folder name it my_repo and keep all files from repo inside it
-Follow following commands-
+Install anaconda. Clone or download  https://github.com/MdShafiqu/Thermal-Image-Detection, Create a folder name it my_repo and keep all files from repo inside it.  Implement following commands in anaconda prompt-
 
 C:\> conda create -n tf_app pip python=3.7
 
